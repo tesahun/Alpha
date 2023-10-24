@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbarLi {
+    @apply text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium;
+  }
+
+  .navbarMo {
+    @apply text-gray-300 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium;
+  }
+}
+
+@layer components {
+  .custom-progress-bar {
+    background-color: green;
+  }
+  .text-shadow-lg {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
+  }
+  .icon {
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.9);
+  }
+  .hover-effect {
+    transition: transform 0.2s ease;
+  }
+
+  .hover-effect:hover {
+    transform: scale(1.1);
+  }
+}
+
+@layer utilities {
+  .square {
+    aspect-ratio: 1 / 1;
+  }
+}
