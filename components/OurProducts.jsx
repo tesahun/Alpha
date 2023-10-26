@@ -46,9 +46,9 @@ const OurProducts = () => {
           data-aos="fade-left"
         >
           <div className=" bg-our-bg bg-cover bg-center p-7 row-span-3 rounded-3xl shadow-lg"></div>
-          <div className=" bg-our-1 p-7 bg-cover bg-center row-span-2 rounded-3xl shadow-lg "></div>
-          <div className=" bg-our-3 bg-cover bg-center p-7 row-span-3 rounded-3xl shadow-lg "></div>
-          <div className=" bg-our-2 bg-cover bg-center p-7 row-span-2 rounded-3xl shadow-lg "></div>
+          <div className=" bg-our-2 p-7 bg-cover bg-center row-span-2 rounded-3xl shadow-lg "></div>
+          <div className=" bg-our-1 bg-cover bg-center p-7 row-span-3 rounded-3xl shadow-lg "></div>
+          <div className=" bg-our-3 bg-cover bg-center p-7 row-span-2 rounded-3xl shadow-lg "></div>
         </div>
       </div>
     </div>

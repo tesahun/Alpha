@@ -30,7 +30,7 @@ const WhatOfer = () => {
           </p>
         </div>
         <div
-          className="bg-care-1 bg-cover bg-center p-5 w-[350px] h-[350px] mt-5 rounded-lg shadow-xl flex justify-center items-center "
+          className="bg-care-1 bg-cover bg-center p-5 w-[400px] h-[400px] mt-5 flex justify-center items-center "
           data-aos="fade-left"
         ></div>
       </div>
@@ -52,7 +52,7 @@ const WhatOfer = () => {
           </p>
         </div>
         <div
-          className="bg-care-2 bg-cover bg-center rounded-lg shadow-xl p-5 w-[450px] h-[350px] mt-5"
+          className="bg-care-2 bg-cover bg-center p-5  w-[400px] h-[400px]  mt-5"
           data-aos="fade-right"
         ></div>
       </div>
@@ -70,7 +70,7 @@ const WhatOfer = () => {
           </p>
         </div>
         <div
-          className="bg-care-3 bg-cover bg-center p-5 w-[450px] rounded-lg shadow-xl h-[350px] mt-5"
+          className="bg-care-3 bg-cover bg-center p-5  w-[400px] h-[400px]  mt-5"
           data-aos="fade-left"
         >
           <h1 className="flex justify-center items-center uppercase h-full font-bold text-gray-200/70 text-5xl">

@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-slate-800 w-full max-h-max text-slate-50 overflow-hidden">
+    <div className="bg-slate-800 w-screen max-h-max text-slate-50 overflow-hidden">
       <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:items-center lg:gap-10">
         <div>
           <div className="">
@@ -20,32 +20,13 @@ const Footer = () => {
               <div className="gmap mt-5 rounded-lg flex justify-center items-center">
                 <div className=" rounded-lg shadow-white">
                   <iframe
-                    width="400"
+                    width="300"
                     height="300"
-                    frameBorder="0"
+                    frameBorder="10"
                     scrolling="no"
                     marginHeight="0"
                     marginWidth="0"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31677.340436272225!2d38.43015432357785!3d7.048295731525944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17b1450b381fe291%3A0x91d59a1e1882828!2sHawassa%20Haike%20Poly%20Clinic!5e0!3m2!1sam!2set!4v1697786489019!5m2!1sam!2set"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-            <div className="md:flex">
-              <p className="text-center">
-                ቁ.2 ጥቁር ውሃ ፍተሻው አጠገብ ዳቶ ቀበሌ <br />
-                ኦል ሊቢያ ነዳጅ ማደያ ህንፃ ላይ(የቀድሞ አጂፕ)
-              </p>
-              <div className="gmap mt-5 rounded-lg">
-                <div className=" rounded-lg shadow-white">
-                  <iframe
-                    width="400"
-                    height="300"
-                    frameBorder="0"
-                    scrolling="no"
-                    marginHeight="0"
-                    marginWidth="0"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15837.338022835223!2d38.4862202!3d7.0871664!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17b151a778c8b0b7%3A0x36396506d0794858!2sTam-Dag%20m%20Dental%20Clinic!5e0!3m2!1sen!2set!4v1697943072469!5m2!1sen!2set"
                   ></iframe>
                 </div>
               </div>

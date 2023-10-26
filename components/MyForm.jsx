@@ -47,7 +47,7 @@ const MyForm = ({ isOpen, onClose, children }) => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen w-full absolute bg-slate-700/70 z-40">
+    <div className="flex justify-center items-center h-screen w-screen absolute bg-slate-700/70 z-40">
       <div className="bg-slate-400/80 w-[350px] rounded-lg">
         <div className="flex justify-end">
           <button
